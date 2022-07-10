@@ -1,5 +1,5 @@
 # Calculate optimal thread pool size in Java
-"How many thread to used in an executor pool, 22, 50, or 10" - similar questions were asked many times when a thread pool is created, and we need to choose a number of threads in a pool. If we choose too big number of threads then it could end up with exhausting resources, CPU, memory. If we choose too small number of threads then throughput of a system will be poor as CPU/memory is not used enough. 
+"How many thread to be used in an executor pool: 22, 50, or 10?" - similar questions were asked many times when a thread pool is created, and we need to choose a number of threads in a pool. If we choose too big number of threads then it could end up with exhausting resources, CPU, memory. If we choose too small number of threads then throughput of a system will be poor as CPU/memory is not used enough. 
 
 To choose properly number of threads for a threads pool we need to understand what type of tasks a thread pool will work with. 
 In general, all possible tasks can be divided into two groups: `compute-intensive tasks` or `CPU Bound tasks`, `I/O tasks` or `I/O Bound tasks`.
